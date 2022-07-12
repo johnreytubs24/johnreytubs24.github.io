@@ -1,0 +1,521 @@
+body {
+    background-image: url('img/BG_img.png');
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+svg, a, button, .modal-header {
+    color: white !important;
+}
+
+.btn {
+    margin: 2px;
+}
+
+.STEM-svg img {
+    position: fixed;
+    bottom: 0;
+    margin-left: -200px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#last-item {
+    margin-bottom: 120px;
+}
+
+/*#region Modal*/
+.center {
+    text-align: center !important;
+}
+
+.center img {
+    margin-left: 20px !important;
+    margin-bottom: 20px !important;
+}
+/*#endregion*/
+
+/*#region scrollbar*/
+::-webkit-scrollbar {
+    width: 5px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #494747;
+}
+/*#endregion*/
+
+
+
+/*Collapse this region to have a better look of style
+        underneath are styles for custom device*/
+
+/*#region Custom Device Responsiveness*/
+
+/*This is responsive to: Moto G4, Galaxy s5 */
+@media only screen and (width: 360px) and (height: 640px) {
+    body {
+        background-position: 75% !important;
+    }
+
+    #sidebar-col {
+        width: 80px !important;
+    }
+
+    button {
+        margin-bottom: -4px !important;
+        font-size: 3vw !important;
+    }
+
+    svg {
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+    .STEM-svg img {
+        height: 50px !important;
+        margin-left: -100px !important;
+    }
+
+    #last-item {
+        margin-bottom: 5px !important;
+    }
+    .table{
+        font-size: 10pt !important;
+    }
+    .title-name{
+        font-size: 20pt !important;
+    }
+    .span-webscheds{
+        font-size: 11pt !important;
+    }
+    .s-media-icon{
+        width:85px !important;
+        height:85px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }        
+    .span-soc{
+
+        font-size: 19pt !important;
+    }
+    
+}
+
+/*This is responsive to: iPad, */
+@media only screen and (width: 768px) and (height: 1024px) {
+    body {
+        background-position: 90% !important;
+    }
+
+    #sidebar-col {
+        width: 140px;
+    }
+
+    button {
+        margin-top: 8px !important;
+        font-size: 2.5vw;
+    }
+
+    .STEM-svg img {
+        height: 90px;
+        margin-left: -50px;
+    }
+
+    #last-item {
+        margin-bottom: 0px;
+    }
+}
+
+/*surface duo*/
+@media only screen and (width: 540px) and (height: 720px) {
+    body {
+        background-position: 90% !important;
+    }
+
+    #sidebar-col {
+        width: 100px !important;
+    }
+
+    button {
+        margin: 2px !important;
+        font-size: 2.5vw !important;
+    }
+
+    .STEM-svg img {
+        height: 60px;
+        margin-left: -50px !important;
+    }
+
+    #last-item {
+        margin-bottom: 72px !important;
+    }
+   table{
+
+        margin-bottom: -10px !important;
+    }
+    .s-media-icon{
+        width:109px !important;
+        height:109px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }       
+     
+    .span-soc{
+
+        font-size: 22pt !important;
+    }
+}
+
+/*iphone x*/
+@media only screen and (width: 375px) and (height: 812px) {
+    body {
+        background-position: 72% !important;
+    }
+
+    #sidebar-col {
+        width: 100px !important;
+    }
+
+    button {
+        margin: 2px !important;
+        font-size: 4vw !important;
+    }
+
+    .STEM-svg img {
+        height: 60px;
+        margin-left: -50px;
+    }
+
+    #last-item {
+        margin-bottom: 50px !important;
+    }
+    .table{
+        font-size: 11pt !important;
+    }
+    .title-name{
+        font-size: 20pt !important;
+    }
+    .span-webscheds{
+        font-size: 11pt !important;
+    }
+    .s-media-icon{
+        width:112px !important;
+        height:112px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }       
+     
+    .span-soc{
+
+        font-size: 21pt !important;
+    }
+}
+
+/*ipad pro*/
+@media only screen and (width: 1024px) {
+    body {
+        background-position: 90% !important;
+    }
+
+    #sidebar-col {
+        width: 150px !important;
+    }
+
+    button {
+        margin: 5px !important;
+        font-size: 2.5vw !important;
+    }
+
+    svg {
+        height: 40px !important;
+        width: 40px !important;
+    }
+
+    .STEM-svg img {
+        height: 95px;
+        margin-left: -50px;
+    }
+
+    #last-item {
+        margin-bottom: 72px !important;
+    }
+}
+
+/* galaxy fold*/
+@media screen and (min-width: 280px) and (max-width: 319px) {
+    body {
+        background-position: 74% !important;
+    }
+
+    #sidebar-col {
+        width: 70px !important;
+    }
+
+    button {
+        margin-bottom: 2px !important;
+        font-size: 3.5vw !important;
+    }
+
+    svg {
+        height: 20px !important;
+        width: 20px !important;
+    }
+
+    .STEM-svg img {
+        height: 50px;
+        margin-left: -100px;
+    }
+
+    #last-item {
+        margin-bottom: 0 !important;
+    }
+    .table{
+        font-size: 7pt !important;
+    }
+    .title-name{
+        font-size: 13pt !important;
+    }
+    .span-webscheds{
+        font-size: 9pt !important;
+    }
+    #register{
+
+        font-size: 7pt !important;
+    }
+    .s-media-icon{
+        width:85px !important;
+        height:85px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }       
+     
+    .span-soc{
+
+        font-size: 16pt !important;
+    }
+}
+
+/*pixel 2*/
+@media screen and (width: 411px) and (height: 731px) {
+    body {
+        background-position: 74% !important;
+    }
+
+    #sidebar-col {
+        width: 100px !important;
+    }
+
+    button {
+        margin-bottom: -4px !important;
+        font-size: 3.5vw !important;
+    }
+
+    .STEM-svg img {
+        height: 60px;
+        margin-left: -100px;
+    }
+
+    #last-item {
+        margin-bottom: 70px !important;
+    }
+    .s-media-icon{
+        width:110px !important;
+        height:110px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }        
+    .span-soc{
+
+        font-size: 20pt !important;
+    }
+}
+
+/*pixel 2 xl*/
+@media screen and (width: 411px) and (height: 823px) {
+    body {
+        background-position: 74% !important;
+    }
+
+    #sidebar-col {
+        width: 100px !important;
+    }
+
+    button {
+        margin-bottom: -4px !important;
+        font-size: 3.5vw !important;
+    }
+
+    .STEM-svg img {
+        height: 60px;
+        margin-left: -100px;
+    }
+
+    #last-item {
+        margin-bottom: 0px !important;
+    }
+    .s-media-icon{
+        width:120px !important;
+        height:120px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }        
+    .span-soc{
+
+        font-size: 22pt !important;
+    }
+}
+
+/*iphone 5/SE*/
+@media screen and (width: 320px) and (height: 568px) {
+    body {
+        background-position: 74% !important;
+    }
+
+    #sidebar-col {
+        width: 75px !important;
+    }
+
+    button {
+        margin-bottom: -4px !important;
+        font-size: 2.5vw !important;
+    }
+
+    .STEM-svg img {
+        height: 55px;
+        margin-left: -100px;
+    }
+
+    #last-item {
+        margin-bottom: 70px !important;
+    }
+      .table{
+        font-size: 8pt !important;
+    }
+    .title-name{
+        font-size: 18pt !important;
+    }
+    .span-webscheds{
+        font-size: 11pt !important;
+    }
+    .s-media-icon{
+        width:79px !important;
+        height:79px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }        
+    .span-soc{
+
+        font-size: 16pt !important;
+    }
+}
+
+/*iphone 6/7/8*/
+@media screen and (width: 375px) and (height: 667px) {
+    body {
+        background-position: 74% !important;
+    }
+
+    #sidebar-col {
+        width: 100px !important;
+    }
+
+    button {
+        margin-bottom: -4px !important;
+        font-size: 3.5vw !important;
+    }
+
+    .STEM-svg img {
+        height: 60px;
+        margin-left: -100px;
+    }
+
+    #last-item {
+        margin-bottom: 70px !important;
+    }
+    .table{
+        font-size: 11pt !important;
+    }
+    .title-name{
+        font-size: 20pt !important;
+    }
+    .span-webscheds{
+        font-size: 11pt !important;
+    }
+    .s-media-icon{
+        width:87px !important;
+        height:87px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }        
+    .span-soc{
+
+        font-size: 18pt !important;
+    }
+}
+
+/*iphone 6/7/8 plus*/
+@media screen and (width: 414px) and (height: 736px) {
+    body {
+        background-position: 74% !important;
+    }
+
+    #sidebar-col {
+        width: 100px !important;
+    }
+
+    button {
+        margin-bottom: -4px !important;
+        font-size: 3.5vw !important;
+    }
+
+    .STEM-svg img {
+        height: 60px;
+        margin-left: -100px;
+    }
+
+    #last-item {
+        margin-bottom: 70px !important;
+    }
+    .s-media-icon{
+        width:98px !important;
+        height:98px !important;
+       
+    }
+    .center{
+
+        margin-left:-18px !important;
+    }       
+     
+    .span-soc{
+
+        font-size: 18pt !important;
+    }
+}
+
+/*#endregion */  
